@@ -1,0 +1,151 @@
+/* General Style Information */
+html {
+    background-image: url('img/space.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    background-blend-mode: luminosity;
+    background-color: black;
+}
+
+body {
+    align-content: center;
+	width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    color:#2e64d8;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+    font-size: 200px;
+    font-size-adjust: screen;
+
+}
+
+h2{
+    color:rgb(240, 123, 172);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+    font-size:40;
+
+}
+
+h3{
+    color: rgb(163, 197, 125);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+    font-size:40;
+}
+
+h4{
+    color:rgb(255, 182, 182);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+    font-size:40;
+}
+
+h5{
+    color:rgb(53, 110, 163);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-style: oblique;
+    font-size:40;
+}
+
+
+p {
+    color:#ffffff;
+    font-family: 'silkscreen', cursive;
+    font-size: 15;
+    text-align: center;
+}
+
+.p1 {
+    color:#58633e;
+    font-family: 'silkscreen', cursive;
+    font-size: 15;
+    text-align: center;
+}
+
+.p2 {
+    color:#865864;
+    font-family: 'silkscreen', cursive;
+    font-size: 15;
+    text-align: center;
+}
+
+.p3 {
+    color:#4b5a7a;
+    font-family: 'silkscreen', cursive;
+    font-size: 15;
+    text-align: center;
+}
+
+.artist-biography {
+    color:#6b3f5b;
+    font-family: 'silkscreen', cursive;
+    font-size: 15;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.intro {
+    text-align: left;
+}
+
+.extra {
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: justify;
+    max-width: 100%;
+}
+
+.image {
+    flex-basis:400px
+}
+
+.text {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.iconset {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 100%;
+    padding: auto;
+
+}
+
+
+/*Link Information*/
+
+a:link, a:visited {
+    color:rgb(41, 91, 185);
+    font-family: 'Silkscreen', cursive;
+}
+a:hover {
+    color:rgb(230, 198, 118);
+    font-family: 'Silkscreen', cursive;
+}
+a:active {
+    color:rgb(181, 144, 72);
+    font-family: 'Silkscreen', cursive;
+}
+
+  /*Animation Information*/
+
+.shadow-pop-tl {
+	-webkit-animation: shadow-pop-tl 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards;
+	        animation: shadow-pop-tl 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards;
+}
